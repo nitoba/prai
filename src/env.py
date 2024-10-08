@@ -13,7 +13,6 @@ class Env(BaseSettings):
     ENV_MODE: Optional[str] = 'dev'
     AZURE_DEVOPS_ORGANIZATION: str
     AZURE_DEVOPS_PROJECT: str
-    AZURE_DEVOPS_REPOSITORY_ID: str
     AZURE_DEVOPS_PAT: str
 
     API_KEY: str
