@@ -10,7 +10,6 @@ class AzureDevopsService:
     def __init__(self):
         self.organization = env.AZURE_DEVOPS_ORGANIZATION
         self.project = env.AZURE_DEVOPS_PROJECT
-        self.repository_id = env.AZURE_DEVOPS_REPOSITORY_ID
         self.auth_token = b64encode(
             f':{env.AZURE_DEVOPS_PAT}'.encode()
         ).decode()
